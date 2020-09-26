@@ -4,14 +4,60 @@
 
 /* Tipografía */
 @font-face {
-    font-family: "";
-    src: url("") format("woff2"),
-         url("") format("woff");
+    /* Roboto-normal */
+    font-family: "robotoRegular";
+    src: url("../font/roboto-regular-webfont.woff2") format("woff2"),
+         url("../font/roboto-regular-webfont.woff") format("woff");
+
+    /*  Roboto-italic  */
+    font-family: "robotoItalic";
+    src: url("../font/roboto-italic-webfont.woff2") format("woff2"),
+         url("../font/roboto-italic-webfont.woff") format("woff");
 }
 
 /* ******************************** */
 
 /* Colores */
+
+:root{
+/* color body */
+     --color-body: #E5E5E5;
+/* color del rectangulo */
+     --color01: #F7F0F7;
+/* color del rectangulo interior */
+     --color02: #ffff;
+
+
+/* color tipografia */
+
+/*  colores de las letras */
+     --color03:  #000000;
+/* colores de las letras pay-pal */
+     --color04: #8D3B95;
+/* colores de las letras del texto */
+     --color05: #5C5C5C;
+/*  color del background del texto */
+     --color06: #FAC8FF;
+ /* color del background de paypla */
+     --color07: #FAF5FB;
+
+
+/* color del a "enviar" ojo que lleva doble variante */
+     --color03: var(--color-enviar #1C1C1F);
+
+/* border radius */
+/* border radius-section */
+     --border-radius01: 60px;
+
+
+/* estilo de fuentes */
+     /* fuente roboto regular */
+      --roboto01: "robotoRegular", sans-serif;
+      /* fuente robot italic */
+      --roboto02: "robotoItalic", sans-serif;
+
+}
+
 
 /* ******************************** */
 
